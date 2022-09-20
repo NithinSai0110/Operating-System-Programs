@@ -58,4 +58,3 @@ void consumer()
     x--;
     mutex=signal(mutex);
 }
-
