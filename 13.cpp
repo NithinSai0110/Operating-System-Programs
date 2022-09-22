@@ -10,9 +10,6 @@ int main()
      scanf("%d",&RQ[i]);
     printf("Enter initial head position\n");
     scanf("%d",&initial);
-    
-    // logic for FCFS disk scheduling
-    
     for(i=0;i<n;i++)
     {
         TotalHeadMoment=TotalHeadMoment+abs(RQ[i]-initial);
